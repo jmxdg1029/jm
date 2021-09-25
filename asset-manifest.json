@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/jmxdg1029.github.io/jm/static/css/main.8c79c5e4.chunk.css",
+    "main.js": "/jmxdg1029.github.io/jm/static/js/main.1ffd30c2.chunk.js",
+    "main.js.map": "/jmxdg1029.github.io/jm/static/js/main.1ffd30c2.chunk.js.map",
+    "runtime-main.js": "/jmxdg1029.github.io/jm/static/js/runtime-main.e665ffcf.js",
+    "runtime-main.js.map": "/jmxdg1029.github.io/jm/static/js/runtime-main.e665ffcf.js.map",
+    "static/js/2.7424c50e.chunk.js": "/jmxdg1029.github.io/jm/static/js/2.7424c50e.chunk.js",
+    "static/js/2.7424c50e.chunk.js.map": "/jmxdg1029.github.io/jm/static/js/2.7424c50e.chunk.js.map",
+    "static/js/3.f148f703.chunk.js": "/jmxdg1029.github.io/jm/static/js/3.f148f703.chunk.js",
+    "static/js/3.f148f703.chunk.js.map": "/jmxdg1029.github.io/jm/static/js/3.f148f703.chunk.js.map",
+    "index.html": "/jmxdg1029.github.io/jm/index.html",
+    "static/css/main.8c79c5e4.chunk.css.map": "/jmxdg1029.github.io/jm/static/css/main.8c79c5e4.chunk.css.map",
+    "static/js/2.7424c50e.chunk.js.LICENSE.txt": "/jmxdg1029.github.io/jm/static/js/2.7424c50e.chunk.js.LICENSE.txt",
+    "static/media/3.036fd576.jfif": "/jmxdg1029.github.io/jm/static/media/3.036fd576.jfif",
+    "static/media/9347.02c2d41c.jfif": "/jmxdg1029.github.io/jm/static/media/9347.02c2d41c.jfif",
+    "static/media/HeroSection.css": "/jmxdg1029.github.io/jm/static/media/LA.3c6da6f1.jfif",
+    "static/media/aa.f6731419.jfif": "/jmxdg1029.github.io/jm/static/media/aa.f6731419.jfif",
+    "static/media/logo-7.f7bf6072.png": "/jmxdg1029.github.io/jm/static/media/logo-7.f7bf6072.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e665ffcf.js",
+    "static/js/2.7424c50e.chunk.js",
+    "static/css/main.8c79c5e4.chunk.css",
+    "static/js/main.1ffd30c2.chunk.js"
+  ]
+}
