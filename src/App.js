@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import NavTool from './components/NavTool';
+import HeroSection from './components/HeroSection';
+import React from 'react';
+import Skills from './components/Skills';
+import ScrollSnap from 'scroll-snap';
+
+
+
+
+function callback(){
+  console.log('snapped')
+}
+
+class App extends React.Component{
+  container = React.createRef();
+
+  bindScrollSnap() {
+    const element = this.container.current
+    const snapElement = new ScrollSnap(element, {
+      snapDestinationY: '100%',
+    })
+    snapElement.bind(callback)
+  }
+  
+  componentDidMount(){
+    this.bindScrollSnap()
+  }
+
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className="App">
+     
+     <div id="container" ref={this.container} >
+     <NavTool/>
+       <HeroSection/>
+       <Skills/>
+     </div>
+   </div>
   );
+  }
 }
 
 export default App;

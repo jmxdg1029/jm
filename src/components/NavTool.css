@@ -1,0 +1,31 @@
+
+@import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+
+.nav{
+    display: block;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    background-color: black;
+}
+
+.nav-info{  
+    color:white;
+}
+
+.place{ 
+    font-weight: 500;
+    font-size: 1.1em;
+    float: right;
+    text-align:right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+.name{
+    height: 80px;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 50%;
+    float: left;
+    text-align:center;
+    
+}

@@ -1,0 +1,24 @@
+.skills-section{
+    z-index: 1;
+    background-color: black;
+    height: 100vh;
+    min-height:100vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+}
+
+.skills-header{
+    display: block;
+    float: right;
+    position: relative;
+    transform: translate(-210px,-480px);
+    font-weight: 70;
+    color:white;
+    font-size: 17em;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    height: 50vh;
+    width: 50vh;
+    
+}
