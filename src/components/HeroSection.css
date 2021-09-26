@@ -1,7 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 .container{
-    color: crimson;
+    color: lightcoral;
    position: absolute;
    z-index: -5;
    font-size: 9em;
@@ -57,7 +57,7 @@
     z-index: -5;
 }
 .logo{
-    height: 800px;
+    height: 170%;
     filter: drop-shadow(30px 30px 30rem black);
 }
 
@@ -95,7 +95,7 @@
     transform: translate(0,15px);
     margin-right: 0%;
     float:right;
-    width:40%;
+    width:43%;
 }
 .hero-info{
     font-size: 1.7em;
@@ -109,7 +109,8 @@
     display: flex;
     position: relative;
     width: 100px;
-
+    height:100%;
+    
     
 }
 .image-stack__item--bottom{

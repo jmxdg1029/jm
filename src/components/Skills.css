@@ -10,10 +10,8 @@
 }
 
 .skills-header{
-    display: block;
-    float: right;
-    position: relative;
-    transform: translate(-210px,-480px);
+    display: flex;
+    transform: translate(0px,-480px);
     font-weight: 70;
     color:white;
     font-size: 17em;
