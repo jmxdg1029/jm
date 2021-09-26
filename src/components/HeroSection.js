@@ -6,6 +6,7 @@ import image2 from './Images/anim.jfif';
 import image3 from './Images/anim2.jfif';
 import Typewriter from "typewriter-effect";
 import CircleType from 'circletype';
+import logo from './Images/logos/logo-1.png'
 
 
 
@@ -28,7 +29,8 @@ class HeroSection extends React.Component {
                 <h2 className="container" ref={this.container}>Here's some curved text flowing counter-clockwise.</h2>
                 <div className="hero-content">
                     <div className="number-header">
-                        <h1><CountUp end={75}  useEasing={true} duration={3.5}/></h1>
+                        {/*<h1><CountUp end={75}  useEasing={true} duration={3.5}/></h1>*/}
+                        <img className="logo" src={logo}></img>
                     </div>
                     <div className="right-content-stack">
                         <div className="hero-info fade-in-content">

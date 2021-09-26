@@ -46,15 +46,19 @@
     display: block;
     float: left;
     position: relative;
-    transform: translate(100px,-460px);
+    transform: translate(90px,-260px);
     font-weight: 70;
     color:white;
     font-size: 15em;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     height: 50vh;
     width: 50vh;
-    text-shadow: 3px 3px 10px black;
+    text-shadow: px 10px 10px black;
     z-index: -5;
+}
+.logo{
+    height: 800px;
+    filter: drop-shadow(30px 30px 30rem black);
 }
 
 .info-under-header{
@@ -65,7 +69,7 @@
     text-shadow: 30px 30px 30px black;
     transform: translate(-340px,390px);
     justify-content: left;
-    color: #FFF8DC;
+    color: white;
     width: 30%;
     z-index: 1;
 }
