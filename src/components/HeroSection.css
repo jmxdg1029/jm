@@ -1,15 +1,17 @@
 @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 .container{
-    color: black;
+    color: crimson;
    position: absolute;
    z-index: -5;
    font-size: 9em;
-   font-weight: 5em;
+   font-weight: 600;
+   opacity: 0.7;
+   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
    -webkit-animation:spin 20s linear infinite;
    -moz-animation:spin 20s linear infinite;
    animation:spin 30s linear infinite;
-   text-shadow: 3px 3px 10px black;
+   text-shadow: 5px 10px 10px black;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
@@ -27,10 +29,11 @@
     background:
     linear-gradient(
         rgba(0,0,0,0.1),
-          rgba(0,0,0,0.7)
+          rgba(0,0,0,0.9)
     ),
-    url('./Images/LA.jfif') center;
+    url('./Images/toyko2.gif') center ;
     background-color: black;
+    background-size: contain;
     height: 91.6vh;
     min-height: 91.5vh;
     -webkit-box-sizing: border-box;
@@ -51,7 +54,7 @@
     height: 50vh;
     width: 50vh;
     text-shadow: 3px 3px 10px black;
-    z-index: -6;
+    z-index: -5;
 }
 
 .info-under-header{
@@ -59,6 +62,7 @@
     position: relative;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-size: 3.5em;
+    text-shadow: 30px 30px 30px black;
     transform: translate(-340px,390px);
     justify-content: left;
     color: #FFF8DC;
@@ -70,10 +74,14 @@
 .image1{
     height: 400px;
     filter: brightness(80%);
+    filter: drop-shadow(0 0 0.75rem black);
 }
+
 .image2,.image3{
     height:400px;
     filter: brightness(70%);
+    filter: drop-shadow(0 0 0.75rem black);
+    
 }
 
 .right-content-stack{
@@ -103,18 +111,23 @@
 .image-stack__item--bottom{
     position: absolute;
     z-index: -3;
+    transition: all 0.3s ease-in;
 }
+
+
+
 .image-stack__item--top{
     position: absolute;
     left: 60%;
     top: 20px;
     z-index: -2;
-
+    transition: all 0.3s ease-in;
 }
 .image-stack__item--top2{
     position: absolute;
     top: 40px;
     left: 120%;
+    transition: all 0.3s ease-in;
 
 }
 
@@ -122,6 +135,7 @@
     position: absolute;
     top: 60px;
     left: 170%;
+    transition: all 0.3s ease-in;
 
 }
 
@@ -129,7 +143,11 @@
     position: absolute;
     top: 80px;
     left: 220%;
+    transition: all 0.2s ease-in;
 
+}
+.image-stack__item--bottom:hover,.image-stack__item--top:hover,.image-stack__item--top2:hover,.image-stack__item--top3:hover,.image-stack__item--top4:hover{
+    transform: translate(0,-30px);
 }
 
 .bottom-hr{

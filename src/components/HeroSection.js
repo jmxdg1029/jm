@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import '../components/HeroSection.css';
 import CountUp from 'react-countup';
-import image1 from './Images/aa.jfif'
-import image2 from './Images/9347.jfif';
-import image3 from './Images/3.jfif';
+import image1 from './Images/anim3.jfif'
+import image2 from './Images/anim.jfif';
+import image3 from './Images/anim2.jfif';
 import Typewriter from "typewriter-effect";
 import CircleType from 'circletype';
 
@@ -50,20 +50,20 @@ class HeroSection extends React.Component {
                         </div>
                         <div className="images">
                             <div className="image-stack__item image-stack__item--bottom">
-                                <img src={image1} className="image1 animated animatedFadeInUp fadeInUp" alt="image1"/>
+                                <img src={image2} className="image1 animated animatedFadeInUp fadeInUp" alt="image1"/>
                             </div>
                             
                             <div className="image-stack__item image-stack__item--top">
-                                <img src={image1} className="image2 fade-in-image" alt="image2"/>
+                                <img src={image2} className="image2 fade-in-image" alt="image2"/>
                             </div>
                             <div className="image-stack__item image-stack__item--top2">
-                                <img src={image2} className="image3 fade-in-image2" alt="image3"/>
+                                <img src={image3} className="image3 fade-in-image2" alt="image3"/>
                             </div>
                             <div className="image-stack__item image-stack__item--top3">
-                                <img src={image2} className="image3 fade-in-image3" alt="image4"/>
+                                <img src={image3} className="image3 fade-in-image3" alt="image4"/>
                             </div>
                             <div className="image-stack__item image-stack__item--top4">
-                                <img src={image3} className="image3 fade-in-image4" alt="image5"/>
+                                <img src={image1} className="image3 fade-in-image4" alt="image5"/>
                             </div>
                         </div>
                         <div className="bottom-hr">
