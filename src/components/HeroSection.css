@@ -1,13 +1,15 @@
 @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 .container{
-    color: white;
+    color: black;
    position: absolute;
    z-index: -5;
    font-size: 9em;
+   font-weight: 5em;
    -webkit-animation:spin 20s linear infinite;
    -moz-animation:spin 20s linear infinite;
-   animation:spin 20s linear infinite;
+   animation:spin 30s linear infinite;
+   text-shadow: 3px 3px 10px black;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
@@ -48,6 +50,8 @@
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     height: 50vh;
     width: 50vh;
+    text-shadow: 3px 3px 10px black;
+    z-index: -6;
 }
 
 .info-under-header{
@@ -178,5 +182,6 @@
 
 .desc{
     font-weight: 500;
+    height: 8vh;
 }
 

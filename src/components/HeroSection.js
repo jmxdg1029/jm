@@ -34,7 +34,19 @@ class HeroSection extends React.Component {
                         <div className="hero-info fade-in-content">
                             <hr/>
                             <h1>Web Programmer + Software Dev</h1>
-                            <p className="desc">George Brown Student hoping to become a well-skilled programmer</p>
+                            <p className="desc">
+                            <Typewriter  
+                            options={{
+                                autoStart:true,
+                                delay:58,
+                            }}
+                            onInit={(typewriter) =>{
+                                typewriter.typeString('George Brown Student hoping to become a well-skilled programmer')
+                                .changeDelay(Number(300))
+                                .start();
+                            }}
+                        />
+                        </p>
                         </div>
                         <div className="images">
                             <div className="image-stack__item image-stack__item--bottom">
@@ -61,17 +73,7 @@ class HeroSection extends React.Component {
                     
                     <div className="info-under-header">
                         <p>
-                        <Typewriter  
-                            options={{
-                                autoStart:true,
-                                delay:18,
-                            }}
-                            onInit={(typewriter) =>{
-                                typewriter.typeString('Making websites of festival design level for those who care for lead generation')
-                                .changeDelay(Number(300))
-                                .start();
-                            }}
-                        />
+                        Making websites of festival design level for those who care for lead generation
                         </p>
                     </div>
                 </div>
