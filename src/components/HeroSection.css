@@ -56,15 +56,15 @@
 
 .info-under-header{
     display: flex;
+    position: relative;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-size: 3.5em;
-    transform: translate(-340px,450px);
+    transform: translate(-340px,390px);
     justify-content: left;
     color: #FFF8DC;
-    width: 34%;
+    width: 30%;
     z-index: 1;
 }
-
 
 
 .image1{
@@ -75,7 +75,6 @@
     height:400px;
     filter: brightness(70%);
 }
-
 
 .right-content-stack{
     display: block;
