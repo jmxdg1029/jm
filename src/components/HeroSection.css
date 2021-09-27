@@ -12,6 +12,7 @@
    -moz-animation:spin 20s linear infinite;
    animation:spin 30s linear infinite;
    text-shadow: 5px 10px 10px black;
+   
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
@@ -54,23 +55,36 @@
     height: 50vh;
     width: 50vh;
     text-shadow: px 10px 10px black;
-    z-index: -5;
+    z-index: 1;
 }
 .logo{
     height: 170%;
     filter: drop-shadow(30px 30px 30rem black);
 }
 
+.bg{
+    position: absolute;
+    z-index: -3;
+    transform: translate(-100px,-280px);
+    
+}
+.bg-under-info{
+    position: absolute;
+    z-index: -7;
+    transform: translate(0,0px);
+    height: 100%;
+}
 .info-under-header{
     display: flex;
     position: relative;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-size: 3.5em;
     text-shadow: 30px 30px 30px black;
-    transform: translate(-340px,390px);
+    transform: translate(-290px,390px);
     justify-content: left;
     color: white;
     width: 30%;
+    
     z-index: 1;
 }
 
@@ -116,7 +130,7 @@
 .image-stack__item--bottom{
     position: absolute;
     z-index: -3;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 
@@ -126,13 +140,13 @@
     left: 60%;
     top: 20px;
     z-index: -2;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 .image-stack__item--top2{
     position: absolute;
     top: 40px;
     left: 120%;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 
 }
 
@@ -140,7 +154,7 @@
     position: absolute;
     top: 60px;
     left: 170%;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 
 }
 
