@@ -10,17 +10,7 @@ class NavTool extends Component{
                     <div>
                     <img className="name" src={logo}></img>
                     </div>
-                    <p className="place"><Typewriter  
-                            options={{
-                                autoStart:true,
-                                delay:308,
-                            }}
-                            onInit={(typewriter) =>{
-                                typewriter.typeString('Toronto, Canada')
-                                .changeDelay(Number(1000))
-                                .start();
-                            }}
-                        /></p>
+                    <p className="place">Toronto, Canada</p>
                 </div>
             </div>
         )

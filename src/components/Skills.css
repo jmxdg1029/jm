@@ -7,16 +7,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: white;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 
-.skills-header{
-    display: flex;
-    transform: translate(0px,-480px);
-    font-weight: 70;
-    color:white;
-    font-size: 17em;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    height: 50vh;
-    width: 50vh;
-    
-}

@@ -80,20 +80,9 @@ class HeroSection extends React.Component {
                         </div>
                     </div>
                     <img className="bg-under-info" src={imgA}/>
+                    <img className="bg-info" src={imgB}/>
                     <div className="info-under-header ">
-                        
-                        <Marquee
-                        gradientWidth={{
-                            gradientWidth:0
-                        }}
-                        style={{
-                            height:200
-                            
-                        }}
-                        >
                         <p>Making websites of festival design level for those who care for lead generation</p>
-                        <img className="logo2" src={logo}/>
-                        </Marquee>
                     </div>
                 </div>
                 
