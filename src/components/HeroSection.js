@@ -5,10 +5,11 @@ import image1 from './Images/anim3.jfif'
 import image2 from './Images/anim.jfif';
 import image3 from './Images/anim2.jfif';
 import Typewriter from "typewriter-effect";
-import CircleType from 'circletype';
 import logo from './Images/logos/logo-1.png'
 import imgB from './Images/word-bb.png';
+import Marquee from "react-fast-marquee";
 import imgA from './Images/word-b.png';
+import { speed } from "jquery";
 
 
 
@@ -33,7 +34,7 @@ class HeroSection extends React.Component {
             <div className="hero-section animated animatedFadeInUp fadeInUp" >
                {/* <h2 className="container" ref={this.container}>Here's some curved text flowing counter-clockwise.</h2>*/}
                 <div className="hero-content">
-                    <div className="number-header">
+                    <div className="number-header ">
                         {/*<h1><CountUp end={75}  useEasing={true} duration={3.5}/></h1>*/}
                         <img className="logo" src={logo}></img>
                     </div>
@@ -78,12 +79,21 @@ class HeroSection extends React.Component {
                             <hr/>
                         </div>
                     </div>
-                    
-                    <div className="info-under-header">
-                        <img className="bg-under-info" src={imgA}/>
-                        <p>
-                        Making websites of festival design level for those who care for lead generation
-                        </p>
+                    <img className="bg-under-info" src={imgA}/>
+                    <div className="info-under-header ">
+                        
+                        <Marquee
+                        gradientWidth={{
+                            gradientWidth:0
+                        }}
+                        style={{
+                            height:200
+                            
+                        }}
+                        >
+                        <p>Making websites of festival design level for those who care for lead generation</p>
+                        <img className="logo2" src={logo}/>
+                        </Marquee>
                     </div>
                 </div>
                 

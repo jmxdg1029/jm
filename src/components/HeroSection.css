@@ -47,19 +47,22 @@
     display: block;
     float: left;
     position: relative;
-    transform: translate(90px,-260px);
+    transform: translate(90px,-215px);
     font-weight: 70;
     color:white;
     font-size: 15em;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     height: 50vh;
     width: 50vh;
-    text-shadow: px 10px 10px black;
+    text-shadow: 10px 10px 10px black;
     z-index: 1;
 }
 .logo{
     height: 170%;
     filter: drop-shadow(30px 30px 30rem black);
+}
+.logo2{
+    height: 30%;
 }
 
 .bg{
@@ -77,16 +80,21 @@
 .info-under-header{
     display: flex;
     position: relative;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    font-size: 3.5em;
+    font-family: "Simplon Norm","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    white-space: nowrap;
+    font-size: 7.23rem;
     text-shadow: 30px 30px 30px black;
-    transform: translate(-290px,390px);
-    justify-content: left;
+    transform: translate(0px,180px);
     color: white;
-    width: 30%;
-    
+    width: 100%;
+    height: 100%;
     z-index: 1;
 }
+
+
 
 
 .image1{
@@ -124,6 +132,7 @@
     position: relative;
     width: 100px;
     height:100%;
+    margin-top: 5%;
     
     
 }
