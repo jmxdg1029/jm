@@ -2,9 +2,10 @@
 @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 .nav{
-    display: block;
+    display: flex;
+    position: fixed;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    background-color: black;
+    z-index: 2;
     
 }
 
@@ -15,9 +16,8 @@
 .place{ 
     font-weight: 500;
     font-size: 1.1em;
-    float: right;
     text-align:right;
-    margin-right: 2%;
+    margin-right: 1%;
     margin-top: 1.5%;
 }
 
@@ -25,8 +25,7 @@
     height: 80px;
     font-weight: 500;
     font-size: 1.1em;
-    margin-left: 50%;
-    float: left;
-    text-align:center;
+    margin-left: 44%;
+ 
     
 }

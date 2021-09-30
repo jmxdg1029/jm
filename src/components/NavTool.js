@@ -10,7 +10,7 @@ class NavTool extends Component{
                     <div>
                     <img className="name" src={logo}></img>
                     </div>
-                    <p className="place">Toronto, Canada</p>
+               
                 </div>
             </div>
         )
