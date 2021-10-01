@@ -2,7 +2,7 @@
 .hero-section{
     background:
     linear-gradient(
-        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.5),
           rgba(0,0,0,0.7)
     ),
     url('./Images/toyko2.gif') center ;
@@ -16,22 +16,7 @@
     position: relative;
 }
 
-.marquee{
-    position: absolute;
-    font-family: "Simplon Norm","Helvetica Neue","Helvetica","Arial",sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    white-space: nowrap;
-    font-size: 7.23rem;
-    text-shadow: 30px 30px 30px black;
-    transform: translate(0px,460px);
-    color: white;
-    width: 100%;
-    height: 32%;
-    z-index: -2;
-    
-}
+
 
 .bg{
     position: absolute;
@@ -55,27 +40,6 @@
 }
 
 
-/*
-MOVING TEXT
-
-.info-under-header{
-    display: flex;
-    position: relative;
-    font-family: "Simplon Norm","Helvetica Neue","Helvetica","Arial",sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 1;
-    white-space: nowrap;
-    font-size: 7.23rem;
-    text-shadow: 30px 30px 30px black;
-    transform: translate(0px,180px);
-    color: white;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-*/
-
 
 .image1{
     height: 550px;
@@ -94,7 +58,7 @@ MOVING TEXT
 
 .right-content-stack{
     position: flex;
-    transform: translate(62%,160px);
+    transform: translate(56%,10px);
     width:50%;
     
 }
@@ -111,7 +75,7 @@ MOVING TEXT
     position: relative;
     width: 100px;
     height:100%;
-    margin-top: 5%;
+    transform: translate(0,40px)
     
     
 }
@@ -127,34 +91,36 @@ MOVING TEXT
 .image-stack__item--top{
     position: absolute;
     left: 80%;
-    top: 20px;   
+    top: 30px;   
     transition: all 0.2s ease-in;
 }
 .image-stack__item--top2{
     position: absolute;
-    top: 50px;
-    left: 160%;
+    top: 60px;
+    left: 150%;
     transition: all 0.2s ease-in;
 
 }
 
 .image-stack__item--top3{
     position: absolute;
-    top: 75px;
-    left: 230%;
+    top: 95px;
+    left: 220%;
     transition: all 0.2s ease-in;
 
 }
 
 .image-stack__item--top4{
     position: absolute;
-    top: 100px;
-    left: 300%;
+    top: 130px;
+    left: 290%;
     transition: all 0.2s ease-in;
 
 }
 .image-stack__item--bottom:hover,.image-stack__item--top:hover,.image-stack__item--top2:hover,.image-stack__item--top3:hover,.image-stack__item--top4:hover{
     transform: translate(0,-30px);
+    
+    
 }
 
 .bottom-hr{
@@ -211,4 +177,7 @@ MOVING TEXT
 
 .header{
     font-size: 2em;
+    color: black;
+    width: 60%;
+    transform: translate(52%,-50px);
 }
