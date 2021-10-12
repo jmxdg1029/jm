@@ -21,8 +21,10 @@ const Skills = () => {
                         <img src={img2} className="img2"/>
                     </Parallax>
                     <div className="skills-header" data-aos="fade-up">
-                        <h1 className="h1">Art Gallery</h1>
-                        <p>Making websites of festival design level for those who care for lead generation</p>
+                        <h1>Web Dev</h1>
+                        <hr/>
+                        <p className="stretch">DESIGN</p>
+                        <p className="desc-skills">I create multi-leveling websites that attracts users who appeal to artistic views </p>
                     </div>
                 </div>
             </div>

@@ -30,14 +30,65 @@
     position: relative;
     margin-top: -5%;
     top: 10%;
-    font-size: 5em;
+   
     color: white;
     height: 50vh;
     width: 100vh;
 }
 
-.h1{
+.skills-header h1{
+    font-size: 9em;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: .015em;
+    text-transform: uppercase;
     font-weight: 500;
     width: 100vh;
     font-family: "Simplon Norm","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+.stretch{
+    transform: translate(0,-70px);
+    letter-spacing: 5em;
+    font-size: 1em;
+}
+
+.desc-skills{
+    width: 93%;
+    font-size: 4.5em;
+    transform: translate(0,-90px);
+}
+
+.skills-header hr{
+    margin:auto;
+    transform: translate(-90px,-70px);
+    -webkit-animation: thread2 8s infinite;
+        -moz-animation: thread2 8s infinite;
+        -o-animation:  thread2 8s infinite;
+        animation: thread2 8s infinite;
+}
+
+@-webkit-keyframes thread2 {
+    0%   { width: 80%; }
+    50% { width: 80%; }
+    80% { width: 0px;}
+    100%{ width:80%;}
+  }
+  @-moz-keyframes thread2 {
+    0%   { width: 80%; }
+    50% { width: 80%; }
+    80% { width: 0px;}
+    100%{ width:80%;}
+  }
+  @-o-keyframes thread2 {
+    0%   { width: 80%; }
+    50% { width: 80%; }
+    80% { width: 0px;}
+    100%{ width:80%;}
+  }
+  @keyframes thread2 {
+    0%   { width: 80%; }
+    50% { width: 80%; }
+    80% { width: 0px;}
+    100%{ width:80%;}
+}
+

@@ -58,7 +58,7 @@
 
 .right-content-stack{
     position: flex;
-    transform: translate(56%,10px);
+    transform: translate(56%,30px);
     width:50%;
     
 }
