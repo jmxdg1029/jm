@@ -1,0 +1,27 @@
+.marquee-section{
+    z-index: 1;
+    background-color:black;
+    height: 20vh;
+    min-height:20vh;
+    -webkit-box-sizing: border-box;
+    font-size: 4em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    height: 10px;
+}
+
+.marquee{
+    background-color: white;
+    position: absolute;
+    font-family: "Simplon Norm","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 7.23rem;
+    color: #1d1d1b;
+    width: 100vh;
+    z-index: -2;
+    
+}

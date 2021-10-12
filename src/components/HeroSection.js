@@ -14,36 +14,33 @@ class HeroSection extends React.Component {
         return(
             <div className="hero-section animated animatedFadeInUp fadeInUp" >
                 <div>
-                    
-                    
-                    <div className="right-content-stack"> 
-                    
+                    <div className="right-content-stack">     
                         <div className="images">
                             <div className="image-stack__item image-stack__item--bottom">
-                            <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
-                                <img src={image2} className="image1 animated animatedFadeInUp fadeInUp" alt="image1"/>
-                            </Parallax> 
+                                <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
+                                    <a href=""><img src={image2} className="image1 animated animatedFadeInUp fadeInUp" alt="image1"/></a>
+                                </Parallax> 
                             </div>
                             
                             <div className="image-stack__item image-stack__item--top">
-                            <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
-                                <img src={image2} className="image2 fade-in-image" alt="image2"/>
+                                <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
+                                    <a href=""><img src={image2} className="image2 fade-in-image" alt="image2"/></a>
                                 </Parallax> 
                             </div>
                             <div className="image-stack__item image-stack__item--top2">
-                            <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
-                                <img src={image3} className="image3 fade-in-image2" alt="image3"/>
+                                <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
+                                    <a href=""><img src={image3} className="image3 fade-in-image2" alt="image3"/></a>
                                 </Parallax> 
                             </div>
                             <div className="image-stack__item image-stack__item--top3">
-                            <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
-                                <img src={image3} className="image3 fade-in-image3" alt="image4"/>
+                                <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
+                                    <a href=""><img src={image3} className="image3 fade-in-image3" alt="image4"/></a>
                                 </Parallax> 
                             </div>
                             <div className="image-stack__item image-stack__item--top4">
-                            <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
-                                <img src={image1} className="image3 fade-in-image4" alt="image5"/>
-                            </Parallax> 
+                                <Parallax className="custom-class" y={[-17,17]} tagOuter="figure">
+                                    <a href=""><img src={image1} className="image3 fade-in-image4" alt="image5"/></a>
+                                </Parallax> 
                             </div>
                         </div>
                     

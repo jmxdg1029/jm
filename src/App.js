@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import MarqueeJS from './components/Marquee';
 
 const App = () => {
  useEffect(() => {
@@ -24,6 +25,7 @@ const App = () => {
         <div data-aos="fade-up">
           <HeroSection/>
         </div>
+        <MarqueeJS/>
         <Skills/>
      </ParallaxProvider>
      </div>

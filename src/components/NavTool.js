@@ -8,11 +8,10 @@ import Typewriter from 'typewriter-effect';
 class NavTool extends React.Component{
     state = {
         img:logo,
-       
       }
     
       listenScrollEvent = e => {
-        if (window.scrollY > 900) {
+        if (window.scrollY > 850 && window.scrollY < 1050) {
           this.setState({img:logo2})
          
         } else {
@@ -29,7 +28,7 @@ class NavTool extends React.Component{
             <div className="nav">
                 <div className="nav-info animatedDelay animatedFadeInUp fadeInUp">
                     <div>
-                    <img className="name" src={this.state.img}></img>
+                    <a href=""><img className="name" src={this.state.img}></img></a>
                     </div>
                    
                 </div>
