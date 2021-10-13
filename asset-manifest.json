@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/jm/static/css/main.3603dce1.chunk.css",
-    "main.js": "/jm/static/js/main.de990b7f.chunk.js",
-    "main.js.map": "/jm/static/js/main.de990b7f.chunk.js.map",
+    "main.css": "/jm/static/css/main.4f7e5cd0.chunk.css",
+    "main.js": "/jm/static/js/main.1083a6c4.chunk.js",
+    "main.js.map": "/jm/static/js/main.1083a6c4.chunk.js.map",
     "runtime-main.js": "/jm/static/js/runtime-main.3d85e4c8.js",
     "runtime-main.js.map": "/jm/static/js/runtime-main.3d85e4c8.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/jm/static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.2cfa2142.chunk.js": "/jm/static/js/2.2cfa2142.chunk.js",
-    "static/js/2.2cfa2142.chunk.js.map": "/jm/static/js/2.2cfa2142.chunk.js.map",
+    "static/js/2.96ee610e.chunk.js": "/jm/static/js/2.96ee610e.chunk.js",
+    "static/js/2.96ee610e.chunk.js.map": "/jm/static/js/2.96ee610e.chunk.js.map",
     "static/js/3.8f97baec.chunk.js": "/jm/static/js/3.8f97baec.chunk.js",
     "static/js/3.8f97baec.chunk.js.map": "/jm/static/js/3.8f97baec.chunk.js.map",
     "index.html": "/jm/index.html",
     "static/css/2.ae9e5f60.chunk.css.map": "/jm/static/css/2.ae9e5f60.chunk.css.map",
-    "static/css/main.3603dce1.chunk.css.map": "/jm/static/css/main.3603dce1.chunk.css.map",
-    "static/js/2.2cfa2142.chunk.js.LICENSE.txt": "/jm/static/js/2.2cfa2142.chunk.js.LICENSE.txt",
+    "static/css/main.4f7e5cd0.chunk.css.map": "/jm/static/css/main.4f7e5cd0.chunk.css.map",
+    "static/js/2.96ee610e.chunk.js.LICENSE.txt": "/jm/static/js/2.96ee610e.chunk.js.LICENSE.txt",
     "static/media/anim.c0cb2416.jfif": "/jm/static/media/anim.c0cb2416.jfif",
     "static/media/anim2.72243302.jfif": "/jm/static/media/anim2.72243302.jfif",
     "static/media/anim3.b654c742.jfif": "/jm/static/media/anim3.b654c742.jfif",
     "static/media/black.b2181376.png": "/jm/static/media/black.b2181376.png",
-    "static/media/car.641c391a.png": "/jm/static/media/car.641c391a.png",
+    "static/media/img-3.ca8a6231.jfif": "/jm/static/media/img-3.ca8a6231.jfif",
     "static/media/logo-7.f7bf6072.png": "/jm/static/media/logo-7.f7bf6072.png",
-    "static/media/tokyo.588e2ef4.jfif": "/jm/static/media/tokyo.588e2ef4.jfif",
     "static/media/HeroSection.css": "/jm/static/media/toyko2.32515514.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.3d85e4c8.js",
     "static/css/2.ae9e5f60.chunk.css",
-    "static/js/2.2cfa2142.chunk.js",
-    "static/css/main.3603dce1.chunk.css",
-    "static/js/main.de990b7f.chunk.js"
+    "static/js/2.96ee610e.chunk.js",
+    "static/css/main.4f7e5cd0.chunk.css",
+    "static/js/main.1083a6c4.chunk.js"
   ]
 }
