@@ -2,14 +2,14 @@
     z-index: 1;
     background-color:black;
     height: 20vh;
-    min-height:20vh;
+    min-height:15vh;
     -webkit-box-sizing: border-box;
     font-size: 4em;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: black;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    height: 10px;
+    
 }
 
 .marquee{

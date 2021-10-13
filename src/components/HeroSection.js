@@ -43,10 +43,10 @@ class HeroSection extends React.Component {
                                 </Parallax> 
                             </div>
                         </div>
-                    
-                        
                     </div>
-    
+                    <div className="footer">
+                        <p>John Michael De Guzman</p>
+                    </div>
                 </div>
             </div>
         )
