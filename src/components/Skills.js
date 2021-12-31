@@ -21,7 +21,7 @@ const Skills = () => {
                    <h1>ATTRACT</h1>
                 </div>
                     <Parallax className="custom-class" x={[-54,124]} tagOuter="figure">
-                        <img src={img2} className="img2"/>
+                        <img src={img2} className="img2" alt='IMAGE'/>
                     </Parallax>
                     <div className="skills-Image" data-aos="fade-up">
                         <h1>Developer</h1>
