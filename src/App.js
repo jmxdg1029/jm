@@ -2,6 +2,7 @@
 import './App.css';
 import NavTool from './components/NavTool';
 import HeroSection from './components/HeroSection';
+import Project from './components/Project';
 import React, {useEffect} from 'react';
 import Skills from './components/Skills';
 import Aos from 'aos';
@@ -25,8 +26,9 @@ const App = () => {
         <div data-aos="fade-up">
           <HeroSection/>
         </div>
-        <MarqueeJS/>
         <Skills/>
+        <MarqueeJS/>
+        <Project/>
      </ParallaxProvider>
      </div>
    </div>

@@ -6,6 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const MarqueeJS = () => {
     return (
+        
             <div className="marquee-section">
                 <div className="marquee">
                        <Marquee
@@ -15,12 +16,13 @@ const MarqueeJS = () => {
                        speed={200}
                        loop={0}
                        style={{
-                           height:140,
+                           height:200,
                        }}
                        >Making websites of festival design level for those who care for lead generation
                        </Marquee>
                 </div>
             </div>
+           
     );
 };
 

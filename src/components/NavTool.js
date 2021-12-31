@@ -10,6 +10,7 @@ class NavTool extends React.Component{
         img:logo,
       }
     
+      /*
       listenScrollEvent = e => {
         if (window.scrollY > 850 && window.scrollY < 1050) {
           this.setState({img:logo2})
@@ -23,6 +24,8 @@ class NavTool extends React.Component{
       componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
       }
+      */
+     
     render(){
         return(
             <div className="nav">

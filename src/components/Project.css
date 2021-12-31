@@ -1,0 +1,19 @@
+.project-section{
+    background-color: black;
+    background-size:34%;
+    height: 100vh;
+    min-height: 100vh;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img1{
+    position: relative;
+    left:12%;
+    top: 10%; 
+    color: white;
+   
+    
+}
