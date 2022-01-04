@@ -17,19 +17,18 @@ const Skills = () => {
             <div className="skills-section">
                 
                 <div className="collumn">
-                <div className='skill-header'>
-                   <h1>ATTRACT</h1>
-                </div>
-                    <Parallax className="custom-class" x={[-54,124]} tagOuter="figure">
-                        <img src={img2} className="img2" alt='IMAGE'/>
-                    </Parallax>
-                    <div className="skills-Image" data-aos="fade-up">
-                        <h1>Developer</h1>
-                        <hr/>
-                        <p className="stretch">DESIGN</p>                
-                        <p className="desc-skills">I create multi-leveling websites that attracts users who appeal to artistic views </p>
-                    </div>
-                    
+                        <div className='skill-header'>
+                            <h1>ATTRACT</h1>
+                        </div>
+                        <Parallax className="custom-class" x={[-54,124]} tagOuter="figure">
+                            <img src={img2} className="img2" alt='IMAGE'/>
+                        </Parallax>
+                        <div className="skills-Image" data-aos="fade-up">
+                            <h1>Developer</h1>
+                            <hr/>
+                            <p className="stretch">DESIGN</p>                
+                            <p className="desc-skills">I create multi-leveling websites that attracts users who appeal to artistic views </p>
+                        </div>
                 </div>
             </div>
     );

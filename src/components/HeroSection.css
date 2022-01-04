@@ -124,6 +124,29 @@
     
 }
 
+.header-nav{
+    -webkit-filter: opacity(0);
+    color:white;
+    left: 300%;
+    font-size: 5em;
+    position: absolute;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.image-stack__item--bottom:hover  .header-nav,.image-stack__item--top:hover  .header-nav,.image-stack__item--top2:hover  .header-nav,.image-stack__item--top3:hover  .header-nav,.image-stack__item--top4:hover .header-nav{
+    -webkit-filter: opacity(1);
+    -webkit-transform: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
 .bottom-hr{
     width: 63%;
     transform: translate(80px,440px);

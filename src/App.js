@@ -29,6 +29,7 @@ const App = () => {
         <Skills/>
         <MarqueeJS/>
         <Project/>
+        
      </ParallaxProvider>
      </div>
    </div>

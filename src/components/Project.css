@@ -1,19 +1,60 @@
 .project-section{
-    background-color: black;
-    background-size:34%;
+    margin-top:5%;
+}
+
+.project-section-leftHalf{
+    background:url('./Images/skill5.jfif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100vh;
     min-height: 100vh;
+    width: 50%  ;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
 }
 
-.img1{
+.project-section-rightHalf{
+    border: 1px solid white;
+    padding-left: 3%;
+    padding-right: 12%;
+    width: 30%;
+    margin-top: -49%;
+    right:2%;
     position: relative;
-    left:12%;
-    top: 10%; 
-    color: white;
-   
-    
+    float: right;
 }
+
+.skill-desc h1,h2,p{
+    color:white;
+}
+
+.skill-desc h1{
+    font-size: 8em;
+}
+
+.skill-desc h2{
+    margin-top: -10%;
+    font-size: 3em;
+}
+
+.skill-desc p{
+    font-size: 1.5em;
+    word-spacing: 0.30em;
+}
+
+.skill-lang h3{
+    color:white;
+    font-size: 2.5em;
+   
+
+}
+
+.skill-lang p{
+    color:white;
+    font-size: 1.7em;
+    margin-top: -1%;
+}
+
+
